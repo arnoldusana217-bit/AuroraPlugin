@@ -1,0 +1,13 @@
+name: AuroraPlugin
+version: 1.0.0
+main: com.varkennetwork.aurora.AuroraPlugin
+api-version: '1.20'
+author: VARKEN NETWORK
+description: Plugin personalizado para el servidor de Minecraft de VARKEN NETWORK
+
+commands:
+  varken:
+    description: Comando principal de VARKEN NETWORK.
+    usage: /varken
+    permission: varken.user
+    
